@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.splide__slide::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.splide__track {
+    border-radius: 10px;
+}
+
+.splide__arrow {
+    opacity: 1;
+}
+.splide__arrow--next {
+    right: -1em;
+    background-color: #fff;
+}
+
+.splide__arrow--prev {
+    left: -1em;
+    background-color: #fff;
+}
+
+.carousel-caption {
+    bottom: 20%;
+    text-align: start;
+    left: 50px !important;
+    right: 30% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 0;
+        text-align: start;
+        left: 30px !important;
+        right: 30px !important;
+    }
+}
+
+.ms-n5 {
+    margin-left: -60px;
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.trending p {
+    margin-bottom: 5px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.input-group .border {
+    padding: 10px 0px 10px 25px;
+    border: none !important;
+    border-radius: 10px !important;
+}
