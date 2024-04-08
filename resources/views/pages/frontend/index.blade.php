@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="text-center">
-                        <h2 data-aos="fade-down">TES <span class="orange">Suka Jaya</span></h2>
+                        <h2 data-aos="fade-down">Bengkel Las <span class="orange">Suka Jaya</span></h2>
                         <h1 data-aos="fade-up">{{ $hero->title2 }}</h1>
                         <h3 data-aos="fade-up">{{ $hero->title3 }}</h3>
                         <a data-aos="fade-up" data-aos-delay="200" href="https://wa.me/6282249040305" target="_blank"
